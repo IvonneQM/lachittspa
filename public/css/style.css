@@ -1,0 +1,113 @@
+body {
+    background: red;
+}
+
+footer {
+    background: black;
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+footer div#copyright {
+    background: blue;
+}
+
+footer div#developer {
+    background: brown;
+}
+
+header {
+    width: 100%;
+    background: white;
+    height: 200px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav.navbar-default {
+    background: #00abff;
+    border: none;
+    border-bottom: 3px solid #04a3ed;
+}
+
+.navbar-default .navbar-toggle {
+    background: #0078b3;
+    border-color: #0078b3;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: #1073b3;
+}
+ .navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    background: #0078b3;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    background-color: #04a3ed;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>ul{
+    margin: 0;
+}
+
+
+nav ul li, nav ul {
+    padding:0;
+    /*background: #00abff;
+    border-bottom: 1.5px solid black;
+    color: #fff;
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 48px;
+    list-style: none;
+    width: 100%;*/
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background: green;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        background: yellow;
+    }
+
+    /*
+        nav ul li {
+            width: 25%;
+        }*/
+    footer div#copyright {
+        width: 60%;
+    }
+
+    footer div#developer {
+        width: 39%;
+    }
+
+}
+
+@media screen and (min-width: 950px) {
+    body {
+        background: orange;
+    }
+}
