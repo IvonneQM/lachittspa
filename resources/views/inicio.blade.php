@@ -54,9 +54,9 @@
         <div class="carousel-inner">
             <div class="item active">
                 <img alt="Mantención de alcantarillados" src="images/slide/alcantarillado.png">
-                <div class="carousel-caption slider-home-item">
+                <div class="carousel-caption">
                     <div class="slide">
-                        <h3 class="slide-title">Mantención de alcantarillados</h3>
+                        <h3 class="slide-title">MANTENCIÓN DE ALCANTARILLADOS</h3>
                         <p class="slide-description">Cotiza tu mantención</p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                 <img alt="Pérdidas de agua" src="images/slide/goteo.png">
                 <div class="carousel-caption">
                     <div class="slide">
-                        <h3 class="slide-title">Pérdidas de agua</h3>
+                        <h3 class="slide-title">PÉRDIDAS DE AGUA</h3>
                         <p class="slide-description">El goteo constante de una llave equivale a 80 litros de agua cada
                             24
                             horas</p>
@@ -84,43 +84,63 @@
 
 
 </section>
-<section id="advises-section">
-    <span class="advise-title">Consejos!!</span>
-    <a href="#">Véalo ahora!!</a>
+<section class="advises-section">
+    <span class="advise-title">CONSEJOS!!</span>
+    <a href="#" class="advise-link">Véalo ahora!!</a>
     </div>
 </section>
-
 <section id="tools-section">
-    <h2><a href="#">Equipos tecnológicos</a></h2>
-    <article>
-        <a href="#"><img alt="Hidrojet" src=""/></a>
-        <h3 class="tool-title">HIDROJET</h3>
-        <p class="tool-description">Permite la limpieza, destape y desobstrucción de la red de alcantarillados y
-            uniones
-            domiciliarias. Remueve la suciedad sin romper los ductos.</p>
-    </article>
-    <article>
-        <a href="#"><img alt="Geofono" src=""/></a>
-        <h3 class="tool-title">GEÓFONO</h3>
-        <p class="tool-description">Permite la amplificación del sonido que se produce como consecuencia de una
-            fuga.<br/><br/>Facilita
-            la localización eficaz y precisa de la fuga.</p>
-    </article>
-    <article>
-        <a href="#"><img alt="Cámara Televisiva" src=""/></a>
-        <h3 class="tool-title">CÁMARA TELEVISIVA</h3>
-        <p class="tool-description">Permite la inspección de tuberías de manera rápida y precisa, pudiendo de esta forma
-            detectar
-            diversos problemas de fisura, obstrucción, rotura, entre otros.<br/><br/>Detecta el punto exacto
-            del problema.</p>
-    </article>
-    <article>
-        <a href="#"><img alt="Logger" src=""/></a>
-        <h3 class="tool-title">LOGGER</h3>
-        <p class="tool-description">Facilitan la detección de fugas en grandes extensiones de tuberías.<br/><br/>Permite
-            hacer
-            lecturas de sonido y almacenarlas para su posterior utilización.</p>
-    </article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <h2><a href="#">Equipos tecnológicos</a></h2>
+                </div>
+            <article>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#"><img alt="Hidrojet" src="" class="img-circle"/></a>
+                    <h3 class="tool-title">HIDROJET</h3>
+                    <p class="tool-description">Permite la limpieza, destape y desobstrucción de la red de
+                        alcantarillados y
+                        uniones
+                        domiciliarias. Remueve la suciedad sin romper los ductos.</p>
+                </div>
+            </article>
+            <article>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#"><img alt="Geofono" src="" class="img-circle"/></a>
+                    <h3 class="tool-title">GEÓFONO</h3>
+                    <p class="tool-description">Permite la amplificación del sonido que se produce como consecuencia de
+                        una
+                        fuga.<br/><br/>Facilita
+                        la localización eficaz y precisa de la fuga.</p>
+                </div>
+            </article>
+            <article>
+                <div class="col-lg-3 col-md-6">
+
+                    <a href="#"><img alt="Cámara Televisiva" src="" class="img-circle"/></a>
+                    <h3 class="tool-title">CÁMARA TELEVISIVA</h3>
+                    <p class="tool-description">Permite la inspección de tuberías de manera rápida y precisa, pudiendo
+                        de
+                        esta forma
+                        detectar
+                        diversos problemas de fisura, obstrucción, rotura, entre otros.<br/><br/>Detecta el punto exacto
+                        del problema.</p>
+                </div>
+            </article>
+            <article>
+                <div class="col-lg-3 col-md-6">
+
+                    <a href="#"><img alt="Logger" src="" class="img-circle"/></a>
+                    <h3 class="tool-title">LOGGER</h3>
+                    <p class="tool-description">Facilitan la detección de fugas en grandes extensiones de
+                        tuberías.<br/><br/>Permite
+                        hacer
+                        lecturas de sonido y almacenarlas para su posterior utilización.</p>
+                </div>
+            </article>
+        </div>
+    </div>
 </section>
 <section id="bottom-section">
     <article id="why-us-article">

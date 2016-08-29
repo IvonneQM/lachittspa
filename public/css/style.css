@@ -1,5 +1,5 @@
-body {
-    background: red;
+a:hover{
+    text-decoration: none;
 }
 
 footer {
@@ -53,7 +53,6 @@ nav.navbar-default {
 
 .navbar-default .navbar-nav > li > a {
     background: #0078b3;
-    color: #fff;
     font-family: Lato, sans-serif;
     font-size: 18px;
     font-weight: lighter;
@@ -62,7 +61,6 @@ nav.navbar-default {
 
 .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: #04a3ed;
-    color: #fff;
 }
 
 .navbar-default .navbar-nav {
@@ -75,30 +73,59 @@ nav.navbar-default {
     border-top: 0;
 }
 
-#slider-home, #slider-home .carousel-inner, #slider-home .carousel-inner .item, #slider-home .carousel-inner .item img{
-    min-height:140px;
+#slider-home, #slider-home .carousel-inner, #slider-home .carousel-inner .item, #slider-home .carousel-inner .item img {
+    min-height: 140px;
 }
 
-#slider-home .carousel-inner .item{
+#slider-home .carousel-inner .item {
     margin: auto;
 }
 
-.carousel-inner .item .carousel-caption{
-    left:0;
-    margin-top:-103px !important;
+.carousel-inner .item .carousel-caption {
+    left: 0;
     width: 100%;
-
 }
 
-.slide-title{
-    background: rgba(0,0,0,.25);
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    min-width: 100%;
+}
+
+.slide-title {
+    background: rgba(0, 0, 0, .25);
     padding: 20px 0;
     text-align: center;
-
 }
 
-.slide-description{
+h3.slide-title {
+    position: relative;
+    top: -15px;
+}
+
+.slide-description {
     display: none;
+}
+
+.advises-section {
+    background-color: #04a3ed;
+    padding: 20px;
+    width: 100%;
+}
+
+.advise-title, .advise-link, .advise-link:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.advise-link {
+    background: #353f47;
+    padding: 10px 20px;
+    border-radius: .5em;
+    border: 2px solid #282f35;
+    float: right;
+    margin-top: -12.5px;
+}
+
+.advise-link:hover{
+    background: #282f35;
 }
 
 nav ul li, nav ul {
