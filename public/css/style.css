@@ -23,11 +23,14 @@ footer div#developer {
 header {
     width: 100%;
     background: white;
-    height: 200px;
 }
 
 nav ul {
     padding: 0;
+}
+
+nav.navbar {
+    margin-bottom: 0;
 }
 
 nav.navbar-default {
@@ -43,11 +46,12 @@ nav.navbar-default {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background: #1073b3;
 }
- .navbar-default .navbar-toggle .icon-bar{
+
+.navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     background: #0078b3;
     color: #fff;
     font-family: Lato, sans-serif;
@@ -56,23 +60,49 @@ nav.navbar-default {
     line-height: 30px;
 }
 
-.navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+.navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: #04a3ed;
     color: #fff;
 }
 
-.navbar-default .navbar-nav{
+.navbar-default .navbar-nav {
     margin-top: 0;
     margin-bottom: 0px;
     border-bottom: none;
 }
 
 .navbar-collapse {
-    border-top:0;
+    border-top: 0;
+}
+
+#slider-home, #slider-home .carousel-inner, #slider-home .carousel-inner .item, #slider-home .carousel-inner .item img{
+    min-height:140px;
+}
+
+#slider-home .carousel-inner .item{
+    margin: auto;
+}
+
+.carousel-inner .item .carousel-caption{
+    left:0;
+    margin-top:-103px !important;
+    width: 100%;
+
+}
+
+.slide-title{
+    background: rgba(0,0,0,.25);
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.slide-description{
+    display: none;
 }
 
 nav ul li, nav ul {
-    padding:0;
+    padding: 0;
     /*background: #00abff;
     border-bottom: 1.5px solid black;
     color: #fff;
@@ -100,9 +130,12 @@ nav ul li, nav ul {
         border-bottom: 3px solid #04a3ed;
     }
 
-    .navbar-default .navbar-nav>li>a {
+    .navbar-default .navbar-nav > li > a {
         background: none;
+        line-height: 20px;
+
     }
+
     /*
         nav ul li {
             width: 25%;

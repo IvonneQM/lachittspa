@@ -49,23 +49,27 @@
         <ol class="carousel-indicators">
             <li data-target="#slider-home" data-slide-to="0" class="active"></li>
             <li data-target="#slider-home" data-slide-to="1"></li>
-            <li data-target="#slider-home" data-slide-to="2"></li>
         </ol>
         <!-- Carousel items -->
         <div class="carousel-inner">
             <div class="item active">
-                <img alt="Mantención de alcantarillados" src="">
-                <div class="carousel-caption">
-                    <h3 class="slide-title">Mantención de alcantarillados</h3>
-                    <p class="slide-description">Cotiza tu mantención</p>
+                <img alt="Mantención de alcantarillados" src="images/slide/alcantarillado.png">
+                <div class="carousel-caption slider-home-item">
+                    <div class="slide">
+                        <h3 class="slide-title">Mantención de alcantarillados</h3>
+                        <p class="slide-description">Cotiza tu mantención</p>
+                    </div>
                 </div>
             </div>
             <div class="item">
-                <img alt="Pérdidas de agua" src="">
+                <img alt="Pérdidas de agua" src="images/slide/goteo.png">
                 <div class="carousel-caption">
-                    <h3 class="slide-title">Pérdidas de agua</h3>
-                    <p class="slide-description">El goteo constante de una llave equivale a 80 litros de agua cada 24
-                        horas</p>
+                    <div class="slide">
+                        <h3 class="slide-title">Pérdidas de agua</h3>
+                        <p class="slide-description">El goteo constante de una llave equivale a 80 litros de agua cada
+                            24
+                            horas</p>
+                    </div>
                 </div>
             </div>
         </div>
