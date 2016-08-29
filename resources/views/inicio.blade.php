@@ -89,52 +89,51 @@
     <a href="#" class="advise-link">Véalo ahora!!</a>
     </div>
 </section>
-<section id="tools-section">
+<section class="tools-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-            <h2><a href="#">Equipos tecnológicos</a></h2>
+            <h2><a href="#">EQUIPOS TECNOLÓGICOS</a></h2>
                 </div>
             <article>
-                <div class="col-lg-3 col-md-6">
-                    <a href="#"><img alt="Hidrojet" src="" class="img-circle"/></a>
+                <div class="col-lg-3 col-sm-6 centered">
+                    <a href="#"><img alt="Hidrojet" src="images/tools/camaratelevisivacuadrado.png" class="img-circle"/></a>
                     <h3 class="tool-title">HIDROJET</h3>
-                    <p class="tool-description">Permite la limpieza, destape y desobstrucción de la red de
+                    <p class="tool-description center-block">Permite la limpieza, destape y desobstrucción de la red de
                         alcantarillados y
                         uniones
                         domiciliarias. Remueve la suciedad sin romper los ductos.</p>
                 </div>
             </article>
             <article>
-                <div class="col-lg-3 col-md-6">
-                    <a href="#"><img alt="Geofono" src="" class="img-circle"/></a>
+                <div class="col-lg-3 col-sm-6 centered">
+                    <a href="#"><img alt="Geofono" src="images/tools/geofonocuadrado.png" class="img-circle "/></a>
                     <h3 class="tool-title">GEÓFONO</h3>
-                    <p class="tool-description">Permite la amplificación del sonido que se produce como consecuencia de
+                    <p class="tool-description center-block">Permite la amplificación del sonido que se produce como consecuencia de
                         una
-                        fuga.<br/><br/>Facilita
+                        fuga.Facilita
                         la localización eficaz y precisa de la fuga.</p>
                 </div>
             </article>
             <article>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-sm-6 centered">
 
-                    <a href="#"><img alt="Cámara Televisiva" src="" class="img-circle"/></a>
+                    <a href="#"><img alt="Cámara Televisiva" src="images/tools/hidrojetcuadrado.png" class="img-circle"/></a>
                     <h3 class="tool-title">CÁMARA TELEVISIVA</h3>
-                    <p class="tool-description">Permite la inspección de tuberías de manera rápida y precisa, pudiendo
+                    <p class="tool-description center-block">Permite la inspección de tuberías de manera rápida y precisa, pudiendo
                         de
                         esta forma
                         detectar
-                        diversos problemas de fisura, obstrucción, rotura, entre otros.<br/><br/>Detecta el punto exacto
+                        diversos problemas de fisura, obstrucción, rotura, entre otros. Detecta el punto exacto
                         del problema.</p>
                 </div>
             </article>
             <article>
-                <div class="col-lg-3 col-md-6">
-
-                    <a href="#"><img alt="Logger" src="" class="img-circle"/></a>
+                <div class="col-lg-3 col-sm-6 centered">
+                    <a href="#"><img alt="Logger" src="images/tools/loggercuadrado.png" class="img-circle"/></a>
                     <h3 class="tool-title">LOGGER</h3>
-                    <p class="tool-description">Facilitan la detección de fugas en grandes extensiones de
-                        tuberías.<br/><br/>Permite
+                    <p class="tool-description center-block">Facilitan la detección de fugas en grandes extensiones de
+                        tuberías. Permite
                         hacer
                         lecturas de sonido y almacenarlas para su posterior utilización.</p>
                 </div>
@@ -143,7 +142,11 @@
     </div>
 </section>
 <section id="bottom-section">
+    <div class="container">
+        <div class="row">
     <article id="why-us-article">
+        <div class="col-sm-4">
+
         <h3 class="why-us-title">Porqué Nosotros?</h3>
         <div class="why-us-description">
             <ul>
@@ -157,16 +160,22 @@
                 <li>Mucho más</li>
             </ul>
         </div>
+            </div>
     </article>
     <article id="galleries-article">
+        <div class="col-sm-4">
+
         <h3 class="galleries-title">Galería Fotográfica</h3>
         <div class="galleries-content">
             <a href="#"><img alt="Imagen 1" scr=""/></a>
             <a href="#"><img alt="Imagen 2" scr=""/></a>
             <a href="#"><img alt="Imagen 3" scr=""/></a>
         </div>
+            </div>
     </article>
     <article id="clients-article">
+        <div class="col-sm-4">
+
         <h3 class="clients-title">Galería Fotográfica</h3>
         <div class="client">
             <a href="#">
@@ -175,6 +184,7 @@
             </a>
             <p class="client-testimonial"> Testimonio Cliente 1</p>
         </div>
+            </div>
     </article>
 </section>
 <footer>

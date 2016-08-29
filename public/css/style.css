@@ -1,9 +1,12 @@
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
 footer {
-    background: black;
+    background: #293037;
+    color: #cbcbcb;
+    padding: 15px 10px;
+    text-align: center;
 }
 
 footer div {
@@ -12,12 +15,13 @@ footer div {
     width: 100%;
 }
 
-footer div#copyright {
-    background: blue;
+
+h2, h2 a {
+    color: #676767;
 }
 
-footer div#developer {
-    background: brown;
+h3 {
+    color: #a2a2a2;
 }
 
 header {
@@ -36,6 +40,10 @@ nav.navbar {
 nav.navbar-default {
     background: #00abff;
     border: none;
+}
+
+P {
+    color: #bcbcbc;
 }
 
 .navbar-default .navbar-toggle {
@@ -124,8 +132,37 @@ h3.slide-title {
     margin-top: -12.5px;
 }
 
-.advise-link:hover{
+.advise-link:hover {
     background: #282f35;
+}
+
+.img-circle {
+    width: 160px;
+    height: 160px;
+    border: 2px solid rgba(16, 167, 238, 0.67);
+}
+
+.centered {
+    text-align: center;
+}
+
+.tool-description{
+    max-width:400px;
+}
+
+.tools-section .container .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tools-section .container .row h2 {
+    padding-bottom: 20px;
+}
+
+#bottom-section, #bottom-section h3, #bottom-section h4, #bottom-section p{
+    background: #0097d6;
+    color: #fff;
+    padding: 0;
 }
 
 nav ul li, nav ul {
@@ -143,15 +180,10 @@ nav ul li, nav ul {
 }
 
 @media screen and (min-width: 480px) {
-    body {
-        background: green;
-    }
+
 }
 
 @media screen and (min-width: 767px) {
-    body {
-        background: yellow;
-    }
 
     nav.navbar-default {
         border-bottom: 3px solid #04a3ed;
@@ -163,22 +195,33 @@ nav ul li, nav ul {
 
     }
 
+    .img-circle {
+        width: 200px;
+        height: 200px;
+        border: 4px solid rgba(16, 167, 238, 0.4);
+    }
+
+
     /*
         nav ul li {
             width: 25%;
         }*/
     footer div#copyright {
+        text-align: left;
         width: 60%;
     }
 
     footer div#developer {
+        text-align: right;
         width: 39%;
     }
 
 }
 
 @media screen and (min-width: 950px) {
-    body {
-        background: orange;
+    .img-circle {
+        width: 250px;
+        height: 250px;
+        border: 4px solid rgba(16, 167, 238, 0.4);
     }
 }
