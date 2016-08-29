@@ -33,7 +33,6 @@ nav ul {
 nav.navbar-default {
     background: #00abff;
     border: none;
-    border-bottom: 3px solid #04a3ed;
 }
 
 .navbar-default .navbar-toggle {
@@ -62,10 +61,15 @@ nav.navbar-default {
     color: #fff;
 }
 
-.navbar-default .navbar-nav>ul{
-    margin: 0;
+.navbar-default .navbar-nav{
+    margin-top: 0;
+    margin-bottom: 0px;
+    border-bottom: none;
 }
 
+.navbar-collapse {
+    border-top:0;
+}
 
 nav ul li, nav ul {
     padding:0;
@@ -92,6 +96,13 @@ nav ul li, nav ul {
         background: yellow;
     }
 
+    nav.navbar-default {
+        border-bottom: 3px solid #04a3ed;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        background: none;
+    }
     /*
         nav ul li {
             width: 25%;

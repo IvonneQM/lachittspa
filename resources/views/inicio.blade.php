@@ -23,8 +23,8 @@
                     class="font-icon-social-twitter"></span></a>
     </div>
     <nav class="navbar navbar-default" id="navbar-responsive" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
+        <div class="container" id="contenedor">
+            <div class="navbar-header" id="n">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -44,20 +44,40 @@
     </nav>
 </header>
 <section id="slider-section">
-
-    <div class="slides">
-        <img alt="Mantención de alcantarillados" src="">
-        <span class="slide-title">Mantención de alcantarillados</span>
-        <span class="slide-description">Cotiza tu mantención</span>
+    <div id="slider-home" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#slider-home" data-slide-to="0" class="active"></li>
+            <li data-target="#slider-home" data-slide-to="1"></li>
+            <li data-target="#slider-home" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img alt="Mantención de alcantarillados" src="">
+                <div class="carousel-caption">
+                    <h3 class="slide-title">Mantención de alcantarillados</h3>
+                    <p class="slide-description">Cotiza tu mantención</p>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="Pérdidas de agua" src="">
+                <div class="carousel-caption">
+                    <h3 class="slide-title">Pérdidas de agua</h3>
+                    <p class="slide-description">El goteo constante de una llave equivale a 80 litros de agua cada 24
+                        horas</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#slider-home" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#slider-home" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
 
-
-    <div class="slides">
-        <img alt="Pérdidas de agua" src="">
-        <span class="slide-title">Pérdidas de agua</span>
-        <span class="slide-description">El goteo constante de una llave equivale a 80 litros de agua cada 24
-            horas</span>
-    </div>
 
 </section>
 <section id="advises-section">
@@ -147,3 +167,4 @@
 </footer>
 </body>
 </html>
+
