@@ -2,6 +2,12 @@ a:hover {
     text-decoration: none;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
+}
+
 footer {
     background: #293037;
     color: #cbcbcb;
@@ -15,6 +21,9 @@ footer div {
     width: 100%;
 }
 
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
 
 h2, h2 a {
     color: #676767;
@@ -61,7 +70,6 @@ P {
 
 .navbar-default .navbar-nav > li > a {
     background: #0078b3;
-    font-family: Lato, sans-serif;
     font-size: 18px;
     font-weight: lighter;
     line-height: 30px;
@@ -79,6 +87,12 @@ P {
 
 .navbar-collapse {
     border-top: 0;
+}
+
+#bottom-section, #bottom-section h3, #bottom-section h4, #bottom-section p {
+    background: #000000;
+    color: #fff;
+    padding: 10px;
 }
 
 #slider-home, #slider-home .carousel-inner, #slider-home .carousel-inner .item, #slider-home .carousel-inner .item img {
@@ -146,8 +160,33 @@ h3.slide-title {
     text-align: center;
 }
 
-.tool-description{
-    max-width:400px;
+.galleries-content .thumbnail {
+    width: 100% !important;
+    height: auto;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.galleries-content {
+    max-width: 100%;
+    padding: 0;
+}
+
+#bottom-section h3.title {
+    background: none;
+    /*-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);   */
+}
+
+.tools-section .container .row article{
+     padding-bottom: 20px;
+}
+
+.tool-description {
+    max-width: 400px;
 }
 
 .tools-section .container .row {
@@ -159,7 +198,49 @@ h3.slide-title {
     padding-bottom: 20px;
 }
 
-#bottom-section, #bottom-section h3, #bottom-section h4, #bottom-section p{
+.why-us-description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-us-description ul li span {
+    padding: 5px 10px 0 0;
+    font-size:40px;
+    margin-bottom: -5px;
+}
+
+.why-us-description ul li{
+    vertical-align: middle;
+}
+
+.icon-certificate:before {
+    content: "\1f31e";
+}
+.icon-security:before {
+    content: "\e32a";
+}
+.icon-map2:before {
+    content: "\e905";
+}
+.icon-clipboard:before {
+    content: "\e902";
+}
+.icon-truck2:before {
+    content: "\e903";
+}
+.icon-medal:before {
+    content: "\e906";
+}
+.icon-thumb-up:before {
+    content: "\e908";
+}
+.icon-patch:before {
+    content: "\e907";
+}
+
+
+
+#bottom-section, #bottom-section h3, #bottom-section h4, #bottom-section p {
     background: #0097d6;
     color: #fff;
     padding: 0;
@@ -195,12 +276,21 @@ nav ul li, nav ul {
 
     }
 
+    .container{
+
+        text-align: left;
+        width: 100%;
+    }
+
+    .tools-section .row{
+        width: 100%;
+    }
+
     .img-circle {
         width: 200px;
         height: 200px;
         border: 4px solid rgba(16, 167, 238, 0.4);
     }
-
 
     /*
         nav ul li {
@@ -224,4 +314,7 @@ nav ul li, nav ul {
         height: 250px;
         border: 4px solid rgba(16, 167, 238, 0.4);
     }
+
+
+
 }

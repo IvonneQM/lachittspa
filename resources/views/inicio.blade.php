@@ -2,14 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    {!!Html::style('css/normalize.min.css')!!}
-    {!!Html::style('css/bootstrap.min.css')!!}
-    {!!Html::style('css/style.css')!!}
 
-    {!!Html::script('js/jquery-2.2.0.min.js')!!}
-    {!!Html::script('js/bootstrap.min.js')!!}
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    {{Html::style('css/normalize.min.css')}}
+    {!!Html::style('css/bootstrap.min.css')!!}
+    {!!Html::style('css/blueimp-gallery.min.css')!!}
+    {!!Html::style('css/bootstrap-image-gallery.min.css')!!}
+    {!!Html::style('css/style-icomoon.css')!!}
+    {!!Html::style('css/style.css')!!}
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+
 </head>
 <body>
 <header>
@@ -56,7 +60,7 @@
                 <img alt="Mantención de alcantarillados" src="images/slide/alcantarillado.png">
                 <div class="carousel-caption">
                     <div class="slide">
-                        <h3 class="slide-title">MANTENCIÓN DE ALCANTARILLADOS</h3>
+                        <h3 class="slide-title">Mantención de Redes Domiciliarias</h3>
                         <p class="slide-description">Cotiza tu mantención</p>
                     </div>
                 </div>
@@ -65,7 +69,7 @@
                 <img alt="Pérdidas de agua" src="images/slide/goteo.png">
                 <div class="carousel-caption">
                     <div class="slide">
-                        <h3 class="slide-title">PÉRDIDAS DE AGUA</h3>
+                        <h3 class="slide-title">Pérdidas de Agua</h3>
                         <p class="slide-description">El goteo constante de una llave equivale a 80 litros de agua cada
                             24
                             horas</p>
@@ -93,12 +97,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-            <h2><a href="#">EQUIPOS TECNOLÓGICOS</a></h2>
-                </div>
+                <h2><a href="#">Equipos Tecnológicos</a></h2>
+            </div>
             <article>
                 <div class="col-lg-3 col-sm-6 centered">
                     <a href="#"><img alt="Hidrojet" src="images/tools/camaratelevisivacuadrado.png" class="img-circle"/></a>
-                    <h3 class="tool-title">HIDROJET</h3>
+                    <h3 class="tool-title">Hidrojet</h3>
                     <p class="tool-description center-block">Permite la limpieza, destape y desobstrucción de la red de
                         alcantarillados y
                         uniones
@@ -108,34 +112,30 @@
             <article>
                 <div class="col-lg-3 col-sm-6 centered">
                     <a href="#"><img alt="Geofono" src="images/tools/geofonocuadrado.png" class="img-circle "/></a>
-                    <h3 class="tool-title">GEÓFONO</h3>
-                    <p class="tool-description center-block">Permite la amplificación del sonido que se produce como consecuencia de
-                        una
-                        fuga.Facilita
-                        la localización eficaz y precisa de la fuga.</p>
+                    <h3 class="tool-title">Geofono</h3>
+                    <p class="tool-description center-block">Permite la amplificación del sonido que se produce como
+                        consecuencia de
+                        una fuga.Facilita la localización eficaz y precisa de la fuga.</p>
                 </div>
             </article>
             <article>
                 <div class="col-lg-3 col-sm-6 centered">
-
-                    <a href="#"><img alt="Cámara Televisiva" src="images/tools/hidrojetcuadrado.png" class="img-circle"/></a>
-                    <h3 class="tool-title">CÁMARA TELEVISIVA</h3>
-                    <p class="tool-description center-block">Permite la inspección de tuberías de manera rápida y precisa, pudiendo
-                        de
-                        esta forma
-                        detectar
-                        diversos problemas de fisura, obstrucción, rotura, entre otros. Detecta el punto exacto
+                    <a href="#"><img alt="Cámara Televisiva" src="images/tools/hidrojetcuadrado.png"
+                                     class="img-circle"/></a>
+                    <h3 class="tool-title">Cámara Televisiva</h3>
+                    <p class="tool-description center-block">Permite la inspección de tuberías de manera rápida y
+                        precisa, pudiendo de
+                        esta forma detectar diversos problemas de fisura, obstrucción, rotura, entre otros. Detecta el
+                        punto exacto
                         del problema.</p>
                 </div>
             </article>
             <article>
                 <div class="col-lg-3 col-sm-6 centered">
                     <a href="#"><img alt="Logger" src="images/tools/loggercuadrado.png" class="img-circle"/></a>
-                    <h3 class="tool-title">LOGGER</h3>
+                    <h3 class="tool-title">Logger</h3>
                     <p class="tool-description center-block">Facilitan la detección de fugas en grandes extensiones de
-                        tuberías. Permite
-                        hacer
-                        lecturas de sonido y almacenarlas para su posterior utilización.</p>
+                        tuberías. Permite hacer lecturas de sonido y almacenarlas para su posterior utilización.</p>
                 </div>
             </article>
         </div>
@@ -144,48 +144,43 @@
 <section id="bottom-section">
     <div class="container">
         <div class="row">
-    <article id="why-us-article">
-        <div class="col-sm-4">
+            <article id="why-us-article">
+                <div class="col-sm-4">
+                    <h3 class="why-us-title">Porqué Nosotros?</h3>
+                    <div class="why-us-description">
+                        <ul>
+                            <li><span class="icon-medal"></span>Servicio Profesional y Garantizado.</li>
+                            <li><span class="icon-thumb-up"></span>Más de 5 Años de Experiencia en el Rubro.</li>
+                            <li><span class="icon-truck2"></span>Técnicos Calificados en Terreno.</li>
+                            <li><span class="icon-patch"></span>Evitamos Daños Innecesarios.</li>
+                            <li><span class="icon-map2"></span>Atención Domiciliaria a Toda la Segunda Región.</li>
+                            <li><span class="icon-clipboard"></span>Compromiso de Confianza y Transparencia.</li>
+                            <li><span class="icon-security"></span>Preocupación por su Seguridad.</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article id="galleries-article">
+                <div class="col-sm-4">
+                    <h3 class="galleries-title">Galería Fotográfica</h3>
+                    @include('gallery.gallery-bootstrap')
+                </div>
+            </article>
+            <article id="clients-article">
+                <div class="col-sm-4">
 
-        <h3 class="why-us-title">Porqué Nosotros?</h3>
-        <div class="why-us-description">
-            <ul>
-                <li>Panel de opciones del tema</li>
-                <li>Responsive Design</li>
-                <li>Slider destacado</li>
-                <li>Barra lateral y logo personalizado/opción favicon</li>
-                <li>Multiple Homepage Layouts</li>
-                <li>Portfolio, Event/News Layout</li>
-                <li>Animaciones css3</li>
-                <li>Mucho más</li>
-            </ul>
+                    <h3 class="clients-title">Clientes</h3>
+                    <div class="client">
+                        <a href="#">
+                            <h4 class="client-name">Cliente 1</h4>
+                            <img alt="Cliente 1" src=""/>
+                        </a>
+                        <p class="client-testimonial"> Testimonio Cliente 1</p>
+                    </div>
+                </div>
+            </article>
         </div>
-            </div>
-    </article>
-    <article id="galleries-article">
-        <div class="col-sm-4">
-
-        <h3 class="galleries-title">Galería Fotográfica</h3>
-        <div class="galleries-content">
-            <a href="#"><img alt="Imagen 1" scr=""/></a>
-            <a href="#"><img alt="Imagen 2" scr=""/></a>
-            <a href="#"><img alt="Imagen 3" scr=""/></a>
-        </div>
-            </div>
-    </article>
-    <article id="clients-article">
-        <div class="col-sm-4">
-
-        <h3 class="clients-title">Galería Fotográfica</h3>
-        <div class="client">
-            <a href="#">
-                <h4 class="client-name">Cliente 1</h4>
-                <img alt="Cliente 1" src=""/>
-            </a>
-            <p class="client-testimonial"> Testimonio Cliente 1</p>
-        </div>
-            </div>
-    </article>
+    </div>
 </section>
 <footer>
     <div id="copyright">
@@ -199,6 +194,10 @@
 
 
 </footer>
+{!!Html::script('js/jquery-2.2.0.min.js')!!}
+{!!Html::script('js/bootstrap.min.js')!!}
+{!! Html::script('js/bootstrap-gallery/jquery.blueimp-gallery.min.js') !!}
+{!! Html::script('js/bootstrap-gallery/bootstrap-image-gallery.min.js')!!}
 </body>
 </html>
 
