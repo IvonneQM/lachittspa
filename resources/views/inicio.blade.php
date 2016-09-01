@@ -17,15 +17,27 @@
 </head>
 <body>
 <header>
-    <div id="logo"><a><img alt="Logotipo de Lachitt SPA" src=""/></a></div>
-    <div class="header-text"><p>Llámanos : 984187523XX</p></div>
-    <div class="clearfix"></div>
-    <div class="socials">
-        <a href="http://www.fb.com/" class="facebook" title="Facebook" target="_blank"><span
-                    class="font-icon-social-facebook"></span></a>
-        <a href="http://www.twitter.com/" class="twitter" title="Twitter" target="_blank"><span
-                    class="font-icon-social-twitter"></span></a>
+    <div class="row">
+        <div class="col-xs-5 col-sm-3 asdf">
+            <a>
+                <img src="images/logo-lachitt.png" alt="Logotipo de Lachitt SPA" id="logo-md"/>
+            </a>
+        </div>
+        <div class="col-xs-6 col-xs-offset-1 col-sm-3 col-sm-offset-6  col-md-3  col-md-offset-6 col-lg-2 col-lg-offset-7 asd">
+            <p>icon: 984187523XX</p>
+
+            <div class="socials">
+                <a href="http://www.fb.com/" class="facebook" title="Facebook" target="_blank">
+                    <span class="icon-thumb-up"></span>
+                </a>
+                <a href="http://www.twitter.com/" class="twitter" title="Twitter" target="_blank">
+                    <span class="icon-thumb-up"></span>
+                </a>
+            </div>
+
+        </div>
     </div>
+
     <nav class="navbar navbar-default" id="navbar-responsive" role="navigation">
         <div class="container" id="contenedor">
             <div class="navbar-header" id="n">
