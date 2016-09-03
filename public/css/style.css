@@ -261,6 +261,26 @@ h3.slide-title {
     text-align: center;
 }
 
+.seccion-empresa{
+    padding: 30px 80px 50px 80px;
+    background: yellow;
+}
+
+.seccion-valores{
+    padding: 30px 0 0 50px;
+    background: grey;
+}
+
+.seccion-valores ul{
+    padding-top: 30px;
+    list-style: none;
+
+}
+.titulo-valores{
+    font-size: 36px;
+    color: black;
+}
+
 .socials{
     text-align: center;
 }

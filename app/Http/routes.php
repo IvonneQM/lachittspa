@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('inicio');
 });
+
+Route::get('nuestra-empresa', function () {
+    return view('nuestra-empresa');
+});
